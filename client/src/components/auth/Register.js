@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import axios from 'axios';
-import classnames from 'classnames';
+import React, { Component } from "react";
+import axios from "axios";
+import classnames from "classnames";
 
 class Register extends Component {
   constructor() {
     super();
     this.state = {
-      name: '',
-      email: '',
-      password: '',
-      password2: '',
+      name: "",
+      email: "",
+      password: "",
+      password2: "",
       errors: {}
     };
 
@@ -32,9 +32,9 @@ class Register extends Component {
     };
 
     axios
-      .post('/api/users/register', newUser)
+      .post("http://localhost:5000/api/users/register", newUser)
       .then(res => console.log(res.data))
-      .catch(err => this.setState({ errors: err.response.data }));
+      .catch(err => console.log(err));
   }
 
   render() {
@@ -53,8 +53,8 @@ class Register extends Component {
                 <div className="form-group">
                   <input
                     type="text"
-                    className={classnames('form-control form-control-lg', {
-                      'is-invalid': errors.name
+                    className={classnames("form-control form-control-lg", {
+                      "is-invalid": errors.name
                     })}
                     placeholder="Name"
                     name="name"
@@ -68,8 +68,8 @@ class Register extends Component {
                 <div className="form-group">
                   <input
                     type="email"
-                    className={classnames('form-control form-control-lg', {
-                      'is-invalid': errors.email
+                    className={classnames("form-control form-control-lg", {
+                      "is-invalid": errors.email
                     })}
                     placeholder="Email Address"
                     name="email"
@@ -87,8 +87,8 @@ class Register extends Component {
                 <div className="form-group">
                   <input
                     type="password"
-                    className={classnames('form-control form-control-lg', {
-                      'is-invalid': errors.password
+                    className={classnames("form-control form-control-lg", {
+                      "is-invalid": errors.password
                     })}
                     placeholder="Password"
                     name="password"
@@ -102,8 +102,8 @@ class Register extends Component {
                 <div className="form-group">
                   <input
                     type="password"
-                    className={classnames('form-control form-control-lg', {
-                      'is-invalid': errors.password2
+                    className={classnames("form-control form-control-lg", {
+                      "is-invalid": errors.password2
                     })}
                     placeholder="Confirm Password"
                     name="password2"
