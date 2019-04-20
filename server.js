@@ -8,7 +8,9 @@ const profile = require("./routes/api/profile");
 const posts = require("./routes/api/posts");
 
 const app = express();
+var cors = require("cors");
 
+app.use(cors());
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
