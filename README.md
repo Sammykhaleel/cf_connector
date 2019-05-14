@@ -21,7 +21,8 @@ Using Stateless JWT authentication practices
 Integrate React with an Express backend in an elegant way
 React Hooks, Async/Await & modern practices
 Using Redux for state management
-Deploying to Heroku with a postbuild script
+Deploying to Heroku with a postbuild script.
+
 Screenshots below.
 
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-14%20at%2012.42.00%20AM.png)
