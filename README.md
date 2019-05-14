@@ -40,6 +40,8 @@ Screenshots below.
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-13%20at%204.58.42%20PM.png)
 
 
-
+* Single Profile view
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-13%20at%204.55.47%20PM.png)
+
+
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-13%20at%204.54.25%20PM.png)
