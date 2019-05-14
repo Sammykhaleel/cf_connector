@@ -27,7 +27,9 @@ For more on development of this project.
 
 Screenshots below.
 
+Developer dashboard
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-14%20at%2012.42.00%20AM.png)
+Main screen
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-13%20at%204.59.07%20PM.png)
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-13%20at%204.59.16%20PM.png)
 ![Image of Yaktocat](https://github.com/Sammykhaleel/cf_connector/blob/master/imgs/Screen%20Shot%202019-05-13%20at%204.58.42%20PM.png)
